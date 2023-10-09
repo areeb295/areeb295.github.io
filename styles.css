@@ -1,0 +1,41 @@
+.fa-trash,
+.fa-edit {
+    cursor: pointer;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-item:hover .nav-link {
+    /* font-weight: bold; */
+    color: #8F5BFE;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+.delete-icon, .edit-icon {
+    margin-right: 10px;
+    font-size: 20px !important;
+}
+input[type="color"] {
+    width: 20px;
+    height: 20px;
+  }
+
+.celebrate {
+    animation: celebrateEffect 3s ease-in-out;
+}
+
+@keyframes celebrateEffect {
+    0% { background-color: #fff; }
+    50% { background-color: #4caf50; }
+    100% { background-color: #fff; }
+}
+
+.count{
+    display: none !important;
+
+}
